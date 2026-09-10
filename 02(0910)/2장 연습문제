@@ -1,0 +1,28 @@
+| 번호 | 답 | 풀이 |
+|---:|---|---|
+| 1 | **EBP** | 스택 프레임에서 지역 변수 등을 가리키는 **base pointer** |
+| 2 | **CF, ZF, SF, OF** | Carry, Zero, Sign, Overflow 플래그 등 |
+| 3 | **CF (Carry Flag)** | 부호 없는(unsigned) 연산 결과가 범위를 넘을 때 |
+| 4 | **OF (Overflow Flag)** | 부호 있는(signed) 연산 결과가 범위를 넘을 때 |
+| 5 | **True** | REX prefix 사용 시 32비트 레지스터인 **R8D** 사용 가능 |
+| 6 | **SF (Sign Flag)** | 결과가 음수이면 설정 |
+| 7 | **FPU** | 부동소수점 연산 장치(Floating-Point Unit) |
+| 8 | **80 bits** | x87 부동소수점 데이터 레지스터의 크기 |
+| 9 | **True** | x86-64는 기존 x86 명령어와 하위 호환 |
+| 10 | **False** | 현재 구현에서는 보통 주소 지정에 64비트를 전부 쓰지 않음 |
+| 11 | **True** | Itanium은 x86과 완전히 다른 명령어 집합 |
+| 12 | **False** | SRAM은 일반적으로 DRAM보다 비쌈 |
+| 13 | **True** | 64비트 **RDI** 레지스터 사용 가능 |
+| 14 | **False** | native 64-bit mode에서는 16-bit real mode와 virtual-8086 mode를 사용할 수 없음 |
+| 15 | **False** | x86-64는 x86보다 일반 목적 레지스터가 **8개 더 많음** ($16$개 vs. $8$개) |
+| 16 | **True** | 64비트 Microsoft Windows는 virtual-8086 mode를 지원하지 않음 |
+| 17 | **False** | 자외선으로 지우는 것은 EPROM이며, DRAM이 아님 |
+| 18 | **True** | x87 방식의 부동소수점 레지스터는 최대 8개 사용 가능 |
+| 19 | **False** | Bus는 마더보드 위의 회로 경로 또는 데이터 전송 통로이지, 단순한 플라스틱 케이블이 아님 |
+| 20 | **False** | CMOS RAM은 전력(보통 배터리)이 필요함. 다만 DRAM처럼 refresh는 필요하지 않음 |
+| 21 | **True** | PCI 슬롯/커넥터는 그래픽 카드, 사운드 카드 등의 확장 카드에 사용됨 |
+| 22 | **True** | **8259A PIC**는 하드웨어 장치의 외부 인터럽트를 처리하는 컨트롤러 |
+| 23 | **False** | PCI = **Peripheral Component Interconnect** |
+| 24 | **False** | VRAM = **Video Random Access Memory** |
+| 25 | **두 수준 모두** | 응용 프로그램 수준에서는 OS 함수를 호출하고, 시스템 수준에서는 하드웨어 I/O 포트를 직접 제어할 수 있음 |
+| 26 | **속도와 지연 시간 때문** | OS를 거치지 않고 사운드 카드 포트에 직접 출력하면 더 빠르고 실시간 제어가 쉬움 |
