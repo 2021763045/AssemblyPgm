@@ -200,8 +200,6 @@ END
 
 입력값으로 20과 6을 사용한 실행 예시입니다.
 
-![실행 결과 화면](example-output.png)
-
 ```text
 Enter first number: 20
 Enter second number: 6
